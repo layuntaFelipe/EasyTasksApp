@@ -17,6 +17,7 @@
 		2741BAFF265B28280002C7AE /* sound-rise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2741BAFC265B28280002C7AE /* sound-rise.mp3 */; };
 		2741BB00265B28280002C7AE /* sound-ding.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2741BAFD265B28280002C7AE /* sound-ding.mp3 */; };
 		2741BB13265B34590002C7AE /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2741BB12265B34590002C7AE /* Constant.swift */; };
+		2741BB16265B39F10002C7AE /* HideKeyboardExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2741BB15265B39F10002C7AE /* HideKeyboardExtention.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		2741BAFC265B28280002C7AE /* sound-rise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-rise.mp3"; sourceTree = "<group>"; };
 		2741BAFD265B28280002C7AE /* sound-ding.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-ding.mp3"; sourceTree = "<group>"; };
 		2741BB12265B34590002C7AE /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		2741BB15265B39F10002C7AE /* HideKeyboardExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideKeyboardExtention.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 		2741BB06265B28860002C7AE /* Extention */ = {
 			isa = PBXGroup;
 			children = (
+				2741BB15265B39F10002C7AE /* HideKeyboardExtention.swift */,
 			);
 			path = Extention;
 			sourceTree = "<group>";
@@ -210,6 +213,7 @@
 				2741BAF0265B275F0002C7AE /* Persistence.swift in Sources */,
 				2741BAE9265B275A0002C7AE /* ContentView.swift in Sources */,
 				2741BB13265B34590002C7AE /* Constant.swift in Sources */,
+				2741BB16265B39F10002C7AE /* HideKeyboardExtention.swift in Sources */,
 				2741BAF3265B275F0002C7AE /* EasyTasks.xcdatamodeld in Sources */,
 				2741BAE7265B275A0002C7AE /* EasyTasksApp.swift in Sources */,
 			);
