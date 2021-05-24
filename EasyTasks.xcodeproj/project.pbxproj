@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		272CAEFB265C465D0038F4E8 /* BackgroundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272CAEFA265C465D0038F4E8 /* BackgroundImageView.swift */; };
+		272CAEFE265C46D00038F4E8 /* NewTaskItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272CAEFD265C46D00038F4E8 /* NewTaskItemView.swift */; };
+		272CAF01265C49610038F4E8 /* BlankView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272CAF00265C49610038F4E8 /* BlankView.swift */; };
+		272CAF04265C4D300038F4E8 /* ListRowItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272CAF03265C4D300038F4E8 /* ListRowItemView.swift */; };
+		272CAF07265C4E6E0038F4E8 /* CheckboxStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272CAF06265C4E6E0038F4E8 /* CheckboxStyle.swift */; };
 		2741BAE7265B275A0002C7AE /* EasyTasksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2741BAE6265B275A0002C7AE /* EasyTasksApp.swift */; };
 		2741BAE9265B275A0002C7AE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2741BAE8265B275A0002C7AE /* ContentView.swift */; };
 		2741BAEB265B275F0002C7AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2741BAEA265B275F0002C7AE /* Assets.xcassets */; };
@@ -21,6 +26,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		272CAEFA265C465D0038F4E8 /* BackgroundImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundImageView.swift; sourceTree = "<group>"; };
+		272CAEFD265C46D00038F4E8 /* NewTaskItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTaskItemView.swift; sourceTree = "<group>"; };
+		272CAF00265C49610038F4E8 /* BlankView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlankView.swift; sourceTree = "<group>"; };
+		272CAF03265C4D300038F4E8 /* ListRowItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowItemView.swift; sourceTree = "<group>"; };
+		272CAF06265C4E6E0038F4E8 /* CheckboxStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CheckboxStyle.swift; path = EasyTasks/Style/CheckboxStyle.swift; sourceTree = SOURCE_ROOT; };
 		2741BAE3265B275A0002C7AE /* EasyTasks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyTasks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2741BAE6265B275A0002C7AE /* EasyTasksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyTasksApp.swift; sourceTree = "<group>"; };
 		2741BAE8265B275A0002C7AE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -47,6 +57,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		272CAF09265C4E820038F4E8 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				272CAF06265C4E6E0038F4E8 /* CheckboxStyle.swift */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
 		2741BADA265B275A0002C7AE = {
 			isa = PBXGroup;
 			children = (
@@ -69,7 +87,7 @@
 				2741BAE6265B275A0002C7AE /* EasyTasksApp.swift */,
 				2741BB04265B285D0002C7AE /* View */,
 				2741BB09265B28A80002C7AE /* Model */,
-				2741BB08265B28970002C7AE /* Style */,
+				272CAF09265C4E820038F4E8 /* Style */,
 				2741BB07265B28900002C7AE /* Utility */,
 				2741BB06265B28860002C7AE /* Extention */,
 				2741BB02265B28320002C7AE /* Sound */,
@@ -102,6 +120,10 @@
 			isa = PBXGroup;
 			children = (
 				2741BAE8265B275A0002C7AE /* ContentView.swift */,
+				272CAEFA265C465D0038F4E8 /* BackgroundImageView.swift */,
+				272CAEFD265C46D00038F4E8 /* NewTaskItemView.swift */,
+				272CAF00265C49610038F4E8 /* BlankView.swift */,
+				272CAF03265C4D300038F4E8 /* ListRowItemView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -120,13 +142,6 @@
 				2741BB12265B34590002C7AE /* Constant.swift */,
 			);
 			path = Utility;
-			sourceTree = "<group>";
-		};
-		2741BB08265B28970002C7AE /* Style */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Style;
 			sourceTree = "<group>";
 		};
 		2741BB09265B28A80002C7AE /* Model */ = {
@@ -211,11 +226,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				2741BAF0265B275F0002C7AE /* Persistence.swift in Sources */,
+				272CAEFB265C465D0038F4E8 /* BackgroundImageView.swift in Sources */,
 				2741BAE9265B275A0002C7AE /* ContentView.swift in Sources */,
 				2741BB13265B34590002C7AE /* Constant.swift in Sources */,
+				272CAF01265C49610038F4E8 /* BlankView.swift in Sources */,
 				2741BB16265B39F10002C7AE /* HideKeyboardExtention.swift in Sources */,
+				272CAF04265C4D300038F4E8 /* ListRowItemView.swift in Sources */,
 				2741BAF3265B275F0002C7AE /* EasyTasks.xcdatamodeld in Sources */,
 				2741BAE7265B275A0002C7AE /* EasyTasksApp.swift in Sources */,
+				272CAF07265C4E6E0038F4E8 /* CheckboxStyle.swift in Sources */,
+				272CAEFE265C46D00038F4E8 /* NewTaskItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
